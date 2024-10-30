@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+ipykernel = "*"
+matplotlib = "*"
+seaborn = "*"
+ydata-profiling = "*"
+tqdm = "*"
+ipywidgets = "*"
+osmnx = "*"
+geopandas = "*"
+optuna = "*"
+mlflow = "*"
+awswrangler = "*"
+nltk = "*"
+
+[dev-packages]
+isort = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
