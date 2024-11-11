@@ -20,6 +20,11 @@ optuna = "*"
 mlflow = "*"
 awswrangler = "*"
 nltk = "*"
+gensim = "*"
+gdown = "*"
+keras = "*"
+tensorflow = "*"
+plotly = "*"
 
 [dev-packages]
 isort = "*"
