@@ -1,0 +1,16 @@
+(Vidala) 
+Vidala tengo una copla,  no me la vas a quitar.  Dejala que me acompane,  asi conmigo andara.  Pa' cuando vuelva a mi pago,  entonces juntitos la hemos de cantar. 
+Vidala tengo una copla,  no me la vas a quitar. 
+Si le digo que sos fuego,  te han de querer apagar  y en tu rescoldo caliente  la ollita calentaran.  Pa' que no apaguen tus fuegos  tal vez algun pobre me ayude a soplar. 
+Vidala tengo una copla,  no me la vas a quitar. 
+Junto al camino esta caido,  chumadito el Carnaval.  cuando la tierra calienta  gusto a algarroba me da  y me hace llorar la caja  de verme tan lejos la vidalitay. 
+Vidala tengo una copla,  no me la vas a quitar. 
+Es todo lo que me queda,  si vuelto tal vez me dan,  Pa' cuando vuelva a mi pago,  entonces juntitos  la hemos de cantar. 
+Vidala tengo una copla,  no me la vas a quitar. 
+
+------------------------------------------------------------
+dejala: (arg) dejala 
+pa': (arg) para 
+caido: (arg) caido 
+chumado: (americ) borracho, ebrio 
+vidalitay: (quechua) mi vidalita
