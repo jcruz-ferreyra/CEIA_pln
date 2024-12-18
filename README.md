@@ -28,7 +28,7 @@
     <img src="readme/logoFIUBA.jpg" alt="Logo" width="500">
   </a>
 
-<h3 align="center">Natural Language Processing</h3>
+<h3 align="center">Procesamiento de Lenguaje Natural</h3>
 
   <p align="center">
     Especializacion en Inteligencia Artificial
@@ -49,89 +49,30 @@ El proyecto consiste en cutro desafios realizados para el curso de procesamiento
 
 ## Challenges
 
-<details>
-
-<summary>Desafío 1</summary>
+<strong>Vectorizador + Naive bayes:</strong>
 
 <em><p>
-
-<strong>Word vectorizer + Naive bayes:</strong>
-
 El primer desfío consta de explorar la vectorización de documentos, con un enfoque clásico (utilizando temas TF-IDF), para empezar a visualizar la similitud entre documentos de forma matemática, utilizando usualmente la similitud de coseno. También es una primera aproximación a un simple modelo del lenguaje como lo es <ins>Naive Bayes</ins>, donde se analiza sus puntos fuertes así también como sus puntos débiles en comparación con <ins>Complement NB</ins> para la clasificación de documentos.
-
 </p></em>
-
-</details>
-
-<details>
-
-<summary>Desafío 2</summary>
-
-<em><p>
 
 <strong>Embeddings con Gensim:</strong>
 
+<em><p>
 El segundo desfío toma un enfoque más complejo e introduce el térmio de <ins>embeddings</ins>, el cual es una mejora a la primera vectorización. En este sentido, se analizan nuevamente medidas de distancias en las distintas dimensiones de estos embeddings creados con la librería de Gensim. Se exploran analogías y visualizaciones en espacios de dimensiones reducidos, mediante técnicas como PCA o T-SNE, utilizando el lore del Señor de los Anillos.
-
 </p></em>
 
-</details>
-
-<details>
-
-<summary>Desafío 3</summary>
-
-<em><p>
 
 <strong>Modelo del lenguaje:</strong>
 
-El tercer desafío introduce formalmente las primeras lineas de investigación en modelos del lenguaje utilizando "deep learning". Se nombran térmios como tokenización y corpus, explorando en profundidad el proceso de tokenización, el cual es importante para entender como funcionan los grandes modelos del lenguaje, que si bien utilizan una tokenización disitinta actualmente, el enfoque no ha cambiado. En este desafío, también se analizan estructuras que en su tiempo fueron estado del arte, como las celdas de Elman (unidades recurrentes), o capas LSTM/GRU.
-
-</p></em>
-
-</details>
-
-<details>
-
-<summary>Desafío 4</summary>
-
 <em><p>
+El tercer desafío introduce formalmente las primeras lineas de investigación en modelos del lenguaje utilizando "deep learning". Se nombran térmios como tokenización y corpus, explorando en profundidad el proceso de tokenización, el cual es importante para entender como funcionan los grandes modelos del lenguaje, que si bien utilizan una tokenización disitinta actualmente, el enfoque no ha cambiado. En este desafío, también se analizan estructuras que en su tiempo fueron estado del arte, como las celdas de Elman (unidades recurrentes), o capas LSTM/GRU.
+</p></em>
 
 <strong>BOT QA:</strong>
 
-En este cuarto desafío, se intenta resolver un problema específico: crear un bot QA basando en "deep learning", utilizando capas LSTM y embeddings. En este sentido, se analizan los clasicos problemas que tienen estas arquitecturas de aprendizaje profundo, donde el "overfitting" o el "vanishing gradients" son temas que siempre están presentes. También se obtienen conclusiones interesantes desde el punto de vista de utilzar fine-tuning o la potencia de los embeddings pre-entrenados.
-
-</p></em>
-
-</details>
-
-<details>
-
-<summary>Desafío 5</summary>
-
 <em><p>
-
-<strong>BERT Sentiment Analysis:</strong>
-
-En el útimo desafío, se explora una linea para resolver un problema, que hasta ahora, se venía enfocando con modelos de aprendizaje automático "clásico". Desde este punto de vista, se utliza BERT como encoder para la generación de embedding que condensan información implícita del lenguaje, para luego realizar una búsqueda vectorial con estos vectores para clasificarlos en distintas clases. Inicialmente, se plante resolver el problema con el modelo base, para luego evidenciar las ventajas (como también el costo computacional) del fine-tuning para estos casos.
-
+En este cuarto desafío, se intenta resolver un problema específico: crear un bot QA basando en "deep learning", utilizando capas LSTM y embeddings. En este sentido, se analizan los clasicos problemas que tienen estas arquitecturas de aprendizaje profundo, donde el "overfitting" o el "vanishing gradients" son temas que siempre están presentes. También se obtienen conclusiones interesantes desde el punto de vista de utilzar fine-tuning o la potencia de los embeddings pre-entrenados.
 </p></em>
-
-</details>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- ✅ [Desafío 1][desafio1-notebook-url]
-- ✅ [Desafío 2][desafio2-notebook-url]
-- ✅ [Desafío 3][desafio3-notebook-url]
-- ✅ [Desafío 4][desafio4-notebook-url]
-
-Consulte los [problemas abiertos](https://github.com/brunomaso1/uba-ceia/issues) para obtener una lista completa de las funciones propuestas (y problemas conocidos).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
