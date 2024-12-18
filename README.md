@@ -55,12 +55,15 @@ El proyecto consiste en cutro desafios realizados para el curso de procesamiento
 El primer desfío consta de explorar la vectorización de documentos, con un enfoque clásico (utilizando temas TF-IDF), para empezar a visualizar la similitud entre documentos de forma matemática, utilizando usualmente la similitud de coseno. También es una primera aproximación a un simple modelo del lenguaje como lo es <ins>Naive Bayes</ins>, donde se analiza sus puntos fuertes así también como sus puntos débiles en comparación con <ins>Complement NB</ins> para la clasificación de documentos.
 </p></em>
 
+- ✅ [link al notebook][desafio1-notebook-url]
+
 <strong>Embeddings con Gensim:</strong>
 
 <em><p>
 El segundo desfío toma un enfoque más complejo e introduce el térmio de <ins>embeddings</ins>, el cual es una mejora a la primera vectorización. En este sentido, se analizan nuevamente medidas de distancias en las distintas dimensiones de estos embeddings creados con la librería de Gensim. Se exploran analogías y visualizaciones en espacios de dimensiones reducidos, mediante técnicas como PCA o T-SNE, utilizando el lore del Señor de los Anillos.
 </p></em>
 
+- ✅ [link al notebook][desafio2-notebook-url]
 
 <strong>Modelo del lenguaje:</strong>
 
@@ -68,11 +71,15 @@ El segundo desfío toma un enfoque más complejo e introduce el térmio de <ins>
 El tercer desafío introduce formalmente las primeras lineas de investigación en modelos del lenguaje utilizando "deep learning". Se nombran térmios como tokenización y corpus, explorando en profundidad el proceso de tokenización, el cual es importante para entender como funcionan los grandes modelos del lenguaje, que si bien utilizan una tokenización disitinta actualmente, el enfoque no ha cambiado. En este desafío, también se analizan estructuras que en su tiempo fueron estado del arte, como las celdas de Elman (unidades recurrentes), o capas LSTM/GRU.
 </p></em>
 
+- ✅ [link al notebook][desafio3-notebook-url]
+
 <strong>BOT QA:</strong>
 
 <em><p>
 En este cuarto desafío, se intenta resolver un problema específico: crear un bot QA basando en "deep learning", utilizando capas LSTM y embeddings. En este sentido, se analizan los clasicos problemas que tienen estas arquitecturas de aprendizaje profundo, donde el "overfitting" o el "vanishing gradients" son temas que siempre están presentes. También se obtienen conclusiones interesantes desde el punto de vista de utilzar fine-tuning o la potencia de los embeddings pre-entrenados.
 </p></em>
+
+- ✅ [link al notebook][desafio4-notebook-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,45 +95,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/brunomaso1/uba-ceia.svg?style=for-the-badge
-[contributors-url]: https://github.com/brunomaso1/uba-ceia/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/brunomaso1/uba-ceia.svg?style=for-the-badge
-[forks-url]: https://github.com/brunomaso1/uba-ceia/network/members
-[stars-shield]: https://img.shields.io/github/stars/brunomaso1/uba-ceia.svg?style=for-the-badge
-[stars-url]: https://github.com/brunomaso1/uba-ceia/stargazers
-[issues-shield]: https://img.shields.io/github/issues/brunomaso1/uba-ceia.svg?style=for-the-badge
-[issues-url]: https://github.com/brunomaso1/uba-ceia/issues
-[license-shield]: https://img.shields.io/github/license/brunomaso1/uba-ceia.svg?style=for-the-badge
-[license-url]: LICENCE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/brunomaso1
-[product-screenshot]: ceia-nlp/resources/readme-portada.png
-[download-python-url]: https://www.python.org/downloads/
-
-[pytorch]: https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
-[pytorch-url]: https://pytorch.org/
-[tensorflow]: https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
-[tensorflow-url]: https://www.tensorflow.org
-[jupyter]: https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white
-[jupyter-url]: https://jupyter.org/
-[scikitlearn]: https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white
-[pandas]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
-[keras]: https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white
-[scipy]: https://img.shields.io/badge/scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white
-[scikitlearn-url]: https://scikit-learn.org/
-[pandas-url]: https://pandas.pydata.org/
-[keras-url]: https://keras.io/
-[scipy-url]: https://scipy.org/
-[transformers]: https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black
-[transformers-url]: https://huggingface.co/docs/transformers/index
-[nltk]: https://img.shields.io/badge/nltk-0d97ca?style=for-the-badge
-[gensim]: https://img.shields.io/badge/gensim-1938c0?style=for-the-badge
-[seaborn]: https://img.shields.io/badge/seaborn-008ef4?style=for-the-badge
-[nltk-url]: https://www.nltk.org/
-[gensim-url]: https://radimrehurek.com/gensim/
-[seaborn-url]: https://seaborn.pydata.org/
-[desafio1-notebook-url]: ceia-nlp/Desafio%201.ipynb
-[desafio2-notebook-url]: ceia-nlp/Desafio%202.ipynb
-[desafio3-notebook-url]: ceia-nlp/Desafio%203.ipynb
-[desafio4-notebook-url]: ceia-nlp/Desafio%204.ipynb
-[desafio5-notebook-url]: ceia-nlp/Desafio%205.ipynb
+[desafio1-notebook-url]: TPs/TP1/challenge_1.ipynb
+[desafio2-notebook-url]: TPs/TP2/src/challenge_2.ipynb
+[desafio3-notebook-url]: TPs/TP3/src/challenge_3.ipynb
+[desafio4-notebook-url]: TPs/TP4/src/challenge_4.ipynb
