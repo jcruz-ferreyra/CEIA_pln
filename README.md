@@ -19,11 +19,13 @@
 <br />
 <div align="center">
   <img src="readme/cover.jpg" alt="Logo" width="800">
-  </a>
+</div>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 El proyecto consiste en cutro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
