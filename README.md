@@ -24,7 +24,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-El proyecto consiste en cutro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
+El proyecto consiste en cuatro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
 
 
 <!-- USAGE EXAMPLES -->
