@@ -39,7 +39,10 @@
 
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<br />
+<div align="center">
+  <img src="readme/cover.jpg" alt="Logo" width="500">
+  </a>
 
 El proyecto consiste en cutro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
 
