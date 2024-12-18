@@ -1,26 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
-<a id="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -39,9 +16,7 @@
 
 ## About
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-El proyecto consiste en cutro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
+El repositorio consta de cuatro desafios realizados para el curso de procesamiento de lenguaje natural en el contexto de la carrera de especializacion en inteligencia artificial de la Universidad de Buenos Aires.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,7 +27,7 @@ El proyecto consiste en cutro desafios realizados para el curso de procesamiento
 <strong>Vectorizador + Naive bayes:</strong>
 
 <em><p>
-El primer desfío consta de explorar la vectorización de documentos, con un enfoque clásico (utilizando temas TF-IDF), para empezar a visualizar la similitud entre documentos de forma matemática, utilizando usualmente la similitud de coseno. También es una primera aproximación a un simple modelo del lenguaje como lo es <ins>Naive Bayes</ins>, donde se analiza sus puntos fuertes así también como sus puntos débiles en comparación con <ins>Complement NB</ins> para la clasificación de documentos.
+El primero de los desafios consiste en vectorizar documentos con efoque clasico utilizando TF-IDF. Estos documentos pertencen a diferentes clases, por lo que posteriormente se analiza la similaridad coseno basada en la vectorizacion. Luego se entrena un modelo Naive-Bayes en sus versiones complemento y multinomial. Se analizan los resultados para ambos modelos probando diferentes configuraciones de preprocesamiento del texto. Finalmente, trasponiendo la matriz documento-termino, se analiza la similaridad coseno entre terminos.
 </p></em>
 
 - ✅ [link al notebook][desafio1-notebook-url]
@@ -60,7 +35,7 @@ El primer desfío consta de explorar la vectorización de documentos, con un enf
 <strong>Embeddings con Gensim:</strong>
 
 <em><p>
-El segundo desfío toma un enfoque más complejo e introduce el térmio de <ins>embeddings</ins>, el cual es una mejora a la primera vectorización. En este sentido, se analizan nuevamente medidas de distancias en las distintas dimensiones de estos embeddings creados con la librería de Gensim. Se exploran analogías y visualizaciones en espacios de dimensiones reducidos, mediante técnicas como PCA o T-SNE, utilizando el lore del Señor de los Anillos.
+El segundo de los desafios consiste en el entrenamiento de embeddings utilizando la libreria Gensim. Como corpus se utilizan canciones un compositor argentino de folclore, descargadas mediante web scraping. Finalmente se analiza la similaridad positiva o negativa entre diferentes terminos. Finalmente se proyectan los embeddings generados a espacios de menores dimensiones utilizando PCA y T-SNE.
 </p></em>
 
 - ✅ [link al notebook][desafio2-notebook-url]
@@ -68,7 +43,7 @@ El segundo desfío toma un enfoque más complejo e introduce el térmio de <ins>
 <strong>Modelo del lenguaje:</strong>
 
 <em><p>
-El tercer desafío introduce formalmente las primeras lineas de investigación en modelos del lenguaje utilizando "deep learning". Se nombran térmios como tokenización y corpus, explorando en profundidad el proceso de tokenización, el cual es importante para entender como funcionan los grandes modelos del lenguaje, que si bien utilizan una tokenización disitinta actualmente, el enfoque no ha cambiado. En este desafío, también se analizan estructuras que en su tiempo fueron estado del arte, como las celdas de Elman (unidades recurrentes), o capas LSTM/GRU.
+El tercer desafío introduce los modelos del lenguaje de aprendizaje profundo. Como corpus se utilizan nuevamente las canciones de folclore, pero en este caso se incorporan las letras de numerosos compositores del genero. Se preprocesan las canciones para generar los set de entrenamiento y validacion. Utilizando capas de tipo LSTM se entrena un modelo secuencial de lenguaje basado en prediccion de la proxima palabra incorporando un early stopping basada en la metrica de perplejidad aplicada sobre el set de validacion. Finalmente se utiliza beam search y muestreo aleatorio para la generacion de nuevas canciones a partir de una serie de terminos iniciales.
 </p></em>
 
 - ✅ [link al notebook][desafio3-notebook-url]
@@ -76,7 +51,7 @@ El tercer desafío introduce formalmente las primeras lineas de investigación e
 <strong>BOT QA:</strong>
 
 <em><p>
-En este cuarto desafío, se intenta resolver un problema específico: crear un bot QA basando en "deep learning", utilizando capas LSTM y embeddings. En este sentido, se analizan los clasicos problemas que tienen estas arquitecturas de aprendizaje profundo, donde el "overfitting" o el "vanishing gradients" son temas que siempre están presentes. También se obtienen conclusiones interesantes desde el punto de vista de utilzar fine-tuning o la potencia de los embeddings pre-entrenados.
+El cuarto desafio consiste en la creacion de un bot LSTM para preguntas y respuestas. Se utilizan los daots del challenge ConvAI2 y una arquitectura de encoder decoder para el desarrollo de un modelo seq2seq. Posterior al preprocesamiento de los datos se entrenan una serie de modelos con variaciones en la arquitectura incluyendo capas bidireccionales. Para evitar el overfitting se utiliza dropout en las capas LSTM y early stopper basado en cross-validation sobre el set de entrenamiento. Finalemnte se evalua la performance de los diferentes modelos con una serie de preguntas estandarizadas.
 </p></em>
 
 - ✅ [link al notebook][desafio4-notebook-url]
